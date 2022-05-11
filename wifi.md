@@ -1,4 +1,4 @@
-1.iwconfig                                                  --查看无线网卡
+1.iwconfig                                                  --查看无线网卡                                                                                                  
 2.airmon-ng start wlan0                                     --start(开始) wlan0(网卡) 激活网卡监听模式
 3.iwconfig                                                  --查看无线网卡 查看无线网卡是不是开启了无线监听功能 ，出现wlanmon说明监听模式已经开启
 4.airodump-ng wlan0mon                                      --.airodump-ng(捕获数据) wlan0mon（监听模式网卡）捕获监听网卡的数据 
